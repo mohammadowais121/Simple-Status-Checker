@@ -16,6 +16,8 @@ import sys
 
 
 def main():
+	if os.name=="nt":
+		os.system("cls")
 	
 	print('\033[32m' + """
  ___   _         _                    ___            _            
@@ -38,9 +40,7 @@ def main():
 			print("Error Occured")
 		except requests.RequestException:
 			print("Error Occured")
-		except KeyboardInterrupt:
-			print("Someone closed the program")
-			quit()
+		
 			
 			
 			
