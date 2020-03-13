@@ -1,6 +1,7 @@
 # Simple-Status-Checker
 This checks HTTP response code and thus helps in determining 200 OK sites and non-forbidden ones.
 
+The advantage of it is: you can use many URLs to test against certain open redirection tests.
 # Install
 
 git clone https://github.com/mohammadowais121/Simple-Status-Checker.git
