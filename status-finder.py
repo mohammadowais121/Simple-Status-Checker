@@ -40,6 +40,7 @@ def main():
 			print("Error Occured")
 		except KeyboardInterrupt:
 			print("Someone closed the program")
+			quit()
 			
 			
 			
