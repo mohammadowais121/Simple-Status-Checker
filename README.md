@@ -1,5 +1,5 @@
 # Simple-Status-Checker
-This checks HTTP response code and thus helps in determining live sites or non-forbidden ones.
+This checks HTTP response code and thus helps in determining 200 OK sites and non-forbidden ones.
 
 # Install
 
