@@ -34,6 +34,12 @@ def main():
 			print(link + " ["+ str(r.status_code)+ "]")
 		except requests.exceptions.ConnectionError:
 			print("Host Dead!")
+		except requests.Timeout:
+			print("Error Occured")
+		except requests.RequestException:
+			print("Error Occured")
+		except KeyboardInterrupt:
+			print("Someone closed the program")
 			
 			
 			
