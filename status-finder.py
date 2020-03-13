@@ -16,6 +16,8 @@ import sys
 
 
 def main():
+	if os.name=="nt":
+		os.system("cls")
 	
 	print('\033[32m' + """
  ___   _         _                    ___            _            
@@ -34,6 +36,11 @@ def main():
 			print(link + " ["+ str(r.status_code)+ "]")
 		except requests.exceptions.ConnectionError:
 			print("Host Dead!")
+		except requests.Timeout:
+			print("Error Occured")
+		except requests.RequestException:
+			print("Error Occured")
+		
 			
 			
 			
