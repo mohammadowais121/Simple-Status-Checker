@@ -12,8 +12,8 @@ python3 status-finder
 import requests
 import os,sys
 import sys
-import ssl
-from OpenSSL import SSL
+
+
 
 def main():
 	
