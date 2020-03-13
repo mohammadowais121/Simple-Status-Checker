@@ -32,8 +32,8 @@ def main():
 		try:
 			r = requests.get(link, allow_redirects=True, timeout=4)
 			print(link + " ["+ str(r.status_code)+ "]")
-		except requests.exceptions.SSLError:
-			print("Host Dead")
+		except requests.exceptions.ConnectionError:
+			print("Host Dead!")
 			
 			
 			
