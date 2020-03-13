@@ -33,6 +33,10 @@ def main():
 			r = requests.get(link, allow_redirects=True, timeout=4)
 			print(link + " ["+ str(r.status_code)+ "]")
 		except requests.exceptions.SSLError:
-			print("SSL Error")
+			print("Host Dead")
+			
+			
+			
+
 if __name__=="__main__":
 	main()
