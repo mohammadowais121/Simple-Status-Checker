@@ -1,5 +1,6 @@
 # Simple-Status-Checker
 This checks HTTP response code and thus helps in determining 200 OK sites and non-forbidden ones.
+Also determines live and dead sites.
 
 The advantage of it is: you can use many URLs to test against certain open redirection tests.
 # Install
